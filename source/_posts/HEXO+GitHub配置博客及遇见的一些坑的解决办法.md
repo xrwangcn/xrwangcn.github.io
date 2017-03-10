@@ -104,7 +104,11 @@ $ git push origin hexo
 ```
 至此所有源文件已经发布到你的hexo分支上，依然在此hexo分支下执行部署命令：
 ``` bash
-$ hexo g
+$ hexo clean
+```
+这条命令不是必须执行，但是我经常会遇到改完了发布了然后没有更新的情况，所以我建议每次都clean清空然后重新部署
+``` bash
+$ hexo d
 ```
 
 ## 本地资料丢失或者换电脑之后的操作
@@ -124,6 +128,7 @@ $ npm install
 ``` bash
 $ install hexo-deployer-git 
 ```
+**（注意此处没有hexo init）**
 ## 绑定域名
 
 首先需要在阿里云的万网注册一个自己喜欢的域名，成功注册好以后，进入解析界面，添加如下的解析：

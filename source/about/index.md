@@ -5,8 +5,8 @@ type: "about"
 ---
 # 联系方式
 
-Email: wangxurancn@gmail.com 
-Weibo: http://weibo.com/wangxuran
+Email: wangxurancn@gmail.com
+Weibo: [http://weibo.com/wangxuran](http://weibo.com/wangxuran)
 
 # 基本信息
 
