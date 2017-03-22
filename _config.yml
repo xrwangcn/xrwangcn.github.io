@@ -4,11 +4,11 @@
 
 # Site
 title: Xavior
-subtitle:
+subtitle: 
 description: To be a better man.
 author: 叶子
 language: zh-Hans
-timezone:
+timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -70,5 +70,5 @@ avatar: /images/avatar.jpg
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:xrwangcn/xrwangcn.github.io.git 
-  branch: master  
+  repository: git@github.com:xrwangcn/xrwangcn.github.io.git
+  branch: master

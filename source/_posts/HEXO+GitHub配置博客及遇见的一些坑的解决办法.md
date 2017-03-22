@@ -136,4 +136,7 @@ $ install hexo-deployer-git
 ![](\images\310b.png)
 A的记录值是由GitHub所提供的IP地址，解析添加好以后再source文件夹下创建CNAME的文件，文件里写入自己的域名，然后按照上面的步骤重新发布即可用新的域名访问了~
 
+## hexo 填坑指南（持续填坑ing）
+执行`hexo new`出现`YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 4, column 1`错误，请到\scaffolds文件夹下找到post.md文件修改一下front-matter即可。
+
 至此博客已经部署完成，欢迎指正。
