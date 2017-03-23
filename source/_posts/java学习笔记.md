@@ -20,3 +20,11 @@ CLASSPATH的值： `.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar; `
 
 ## Java里一下自己遇见的问题
 Number类和Character
+
+## Tips
+- Java里不允许将一个数字作为布尔值使用
+- switch语句如果执行块没有break语句，会继续执行下一个case语句块，如果下一段语句块有break，则执行完结束，如果仍然没有，则继续执行直到遇到一个break或者default语句。
+- 数组和对象类似，声明时都是做了一个引用。
+- foreach循环里变量名相当于一个新声明的变量，每次循环都把数组的每一个变量赋值给当下的变量。
+
+
