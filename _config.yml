@@ -6,7 +6,7 @@
 title: Xavior
 subtitle: 
 description: To be a better man.
-author: 叶子
+author: Xavior
 language: zh-Hans
 timezone: 
 
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-next
+theme: next
 avatar: /images/avatar.jpg
 
 # Deployment
