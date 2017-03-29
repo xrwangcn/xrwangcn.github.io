@@ -126,7 +126,7 @@ $ npm install hexo
 $ npm install
 ```
 ``` bash
-$ install hexo-deployer-git 
+$ npm install hexo-deployer-git 
 ```
 **（注意此处没有hexo init）**
 ## 绑定域名
