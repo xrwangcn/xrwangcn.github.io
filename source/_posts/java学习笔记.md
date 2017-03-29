@@ -2,7 +2,9 @@
 title: java学习笔记
 date: 2016-07-11 20:57:13
 categories:
+- 学习笔记
 tags:
+- Java
 ---
 ## Java配置
 
