@@ -11,7 +11,7 @@ tags:
 - dict的key必须是不可变对象。
 - 哈希算法计算key值的value存放地址。
 - set不能添加任何list即使tuple里的list也不行，但是仅仅添加tuple可以。
-
+<!-- more -->
 ### 函数
 - 写在py文件上的%要有print才能输出
 - 函数可以同时返回多个值，但其实就是一个tuple。

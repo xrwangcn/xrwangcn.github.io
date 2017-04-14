@@ -13,7 +13,7 @@ Path环境变量的末尾添加如下值： `;%JAVA_HOME%\bin` **（前面有个
 CLASSPATH的值： `.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar; `
 **(注意最前面的.) **
 所有变量均在系统变量中配置。
-
+<!-- more -->
 ## MAVEN配置
 
 新建系统变量 MAVEN_HOME 变量值：`D:\Java\apache-maven-3.1.1` 
