@@ -1,3 +1,11 @@
+---
+title: HEXO+GitHub配置博客及遇见的一些坑的解决办法
+date: 2017-03-10 10：03:56
+categories:
+- 学习笔记
+tags:
+- git
+---
 ## Git配置
 
 安装完成后，在git bash输入以下命令：

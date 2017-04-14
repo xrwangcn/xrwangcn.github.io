@@ -1,3 +1,11 @@
+---
+title: HEXO+GitHub配置博客及遇见的一些坑的解决办法
+date: 2017-04-09 13:10:51
+categories:
+- 学习笔记
+tags:
+- Python
+---
 ## 笔记
 - dict是一种空间换时间的一种方法。
 - dict的key必须是不可变对象。
