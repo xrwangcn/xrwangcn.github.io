@@ -1,5 +1,5 @@
 ---
-title: HEXO+GitHub配置博客及遇见的一些坑的解决办法
+title: Python学习笔记
 date: 2017-04-09 13:10:51
 categories:
 - 学习笔记

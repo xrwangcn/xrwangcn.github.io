@@ -1,6 +1,6 @@
 ---
-title: HEXO+GitHub配置博客及遇见的一些坑的解决办法
-date: 2017-03-10 10：03:56
+title: git学习笔记
+date: 2017-04-14 20：05:52
 categories:
 - 学习笔记
 tags:
