@@ -88,21 +88,23 @@
 
 
 <meta name="description" content="前言因为一直有想搭博客的打算，查阅资料以后发现hexo+GitHub的方式非常好，不用自己的服务器，因为GitHub的yourname.github.io会提供提供资源专门放置个人博客。而选择hexo是因为这个轻博客框架对Windows友好，主题丰富成熟。言归正传，网上的配置方法很多，我说明简要步骤，及我在配置过程中所遇到的坑。我所采用的方法是将我的repo里的主分支放置部署的blog，然后hex">
+<meta name="keywords" content="hexo,git">
 <meta property="og:type" content="article">
 <meta property="og:title" content="HEXO+GitHub配置博客及遇见的一些坑的解决办法">
 <meta property="og:url" content="http://yoursite.com/2017/03/10/HEXO+GitHub配置博客及遇见的一些坑的解决办法/index.html">
 <meta property="og:site_name" content="Xavior">
 <meta property="og:description" content="前言因为一直有想搭博客的打算，查阅资料以后发现hexo+GitHub的方式非常好，不用自己的服务器，因为GitHub的yourname.github.io会提供提供资源专门放置个人博客。而选择hexo是因为这个轻博客框架对Windows友好，主题丰富成熟。言归正传，网上的配置方法很多，我说明简要步骤，及我在配置过程中所遇到的坑。我所采用的方法是将我的repo里的主分支放置部署的blog，然后hex">
-<meta property="og:image" content="http://yoursite.com/\images\310d.png">
-<meta property="og:image" content="http://yoursite.com/\images\310e.png">
-<meta property="og:image" content="http://yoursite.com/\images\310f.png">
-<meta property="og:image" content="http://yoursite.com/\images\310a.png">
-<meta property="og:image" content="http://yoursite.com/\images\310b.png">
-<meta property="og:updated_time" content="2017-03-29T06:29:24.936Z">
+<meta property="og:image" content="http://yoursite.com/images/310d.png">
+<meta property="og:image" content="http://yoursite.com/images/310e.png">
+<meta property="og:image" content="http://yoursite.com/images/310f.png">
+<meta property="og:image" content="http://yoursite.com/images/310a.png">
+<meta property="og:image" content="http://yoursite.com/images/310b.png">
+<meta property="og:image" content="http://yoursite.com/images/error1.png">
+<meta property="og:updated_time" content="2017-04-21T02:53:02.131Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HEXO+GitHub配置博客及遇见的一些坑的解决办法">
 <meta name="twitter:description" content="前言因为一直有想搭博客的打算，查阅资料以后发现hexo+GitHub的方式非常好，不用自己的服务器，因为GitHub的yourname.github.io会提供提供资源专门放置个人博客。而选择hexo是因为这个轻博客框架对Windows友好，主题丰富成熟。言归正传，网上的配置方法很多，我说明简要步骤，及我在配置过程中所遇到的坑。我所采用的方法是将我的repo里的主分支放置部署的blog，然后hex">
-<meta name="twitter:image" content="http://yoursite.com/\images\310d.png">
+<meta name="twitter:image" content="http://yoursite.com/images/310d.png">
 
 
 
@@ -402,8 +404,10 @@
 <p><strong>（注意此处没有hexo init）</strong></p>
 <h2 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h2><p>首先需要在阿里云的万网注册一个自己喜欢的域名，成功注册好以后，进入解析界面，添加如下的解析：</p>
 <p><img src="\images\310b.png" alt=""><br>A的记录值是由GitHub所提供的IP地址，解析添加好以后再source文件夹下创建CNAME的文件，文件里写入自己的域名，然后按照上面的步骤重新发布即可用新的域名访问了~</p>
-<h2 id="hexo-填坑指南（持续填坑ing）"><a href="#hexo-填坑指南（持续填坑ing）" class="headerlink" title="hexo 填坑指南（持续填坑ing）"></a>hexo 填坑指南（持续填坑ing）</h2><p>执行<code>hexo new</code>出现<code>YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 4, column 1</code>错误，请到\scaffolds文件夹下找到post.md文件修改一下front-matter即可。</p>
-<p>至此博客已经部署完成，欢迎指正。</p>
+<h2 id="hexo-填坑指南（持续填坑ing）"><a href="#hexo-填坑指南（持续填坑ing）" class="headerlink" title="hexo 填坑指南（持续填坑ing）"></a>hexo 填坑指南（持续填坑ing）</h2><ul>
+<li>执行<code>hexo new</code>出现<code>YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 4, column 1</code>错误，请到\scaffolds文件夹下找到post.md文件修改一下front-matter即可。  </li>
+<li><img src="\images\error1.png" alt=""><br>这个错误缺什么补什么，这里面缺少hexo-util，所以执行<code>npm install --save-dev hexo-util</code><br>至此博客已经部署完成，欢迎指正。</li>
+</ul>
 
       
     </div>
@@ -448,8 +452,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/07/11/java学习笔记/" rel="next" title="java学习笔记">
-                <i class="fa fa-chevron-left"></i> java学习笔记
+              <a href="/2017/03/26/设计模式学习笔记/" rel="next" title="设计模式学习笔记">
+                <i class="fa fa-chevron-left"></i> 设计模式学习笔记
               </a>
             
           </div>
@@ -457,6 +461,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/07/11/java学习笔记/" rel="prev" title="java学习笔记">
+                java学习笔记 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -528,7 +536,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -550,7 +558,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
